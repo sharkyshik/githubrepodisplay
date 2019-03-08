@@ -1,0 +1,180 @@
+body {
+background-color:#eeeee0;
+}
+
+.Card span .icons{
+    margin-top:5px;
+    margin-left:5px;
+    height:8px;
+    width:12px;
+}
+.App-intro {
+    width:90%;
+    float:left;
+    margin-left:5%;
+    margin-top:5%;
+    border:1px lightseagreen solid;
+
+}
+.SearchHeading{
+width:98.5%;
+float:left;
+background-color:lightseagreen;
+color:white;
+padding-left:20px;
+padding-top:7px;
+font-size:0.8rem;
+height:25px;
+}
+
+.SearchField{
+    width:90%;
+    margin-left:5%;
+    margin-top:10%;
+    border:1px lightseagreen solid;
+    height:80px;
+}
+.SearchField input{
+margin-top:10px;
+margin-left:20px;
+float:left;
+height:25px;
+}
+.IconContainer{
+    width:100%;
+    margin-left:5%;
+    margin-right:5%;
+}
+.SearchField button{
+    color:white;
+    background-color:lightseagreen;
+    margin-top:10px;
+    float:left;
+    margin-left:20px;
+    outline:none;
+    border:none;
+    height:30px;
+    font-size:0.7rem;
+    width:8%;
+}
+
+
+.ShowResults{
+    display:block;
+}
+.HideResults{
+    display:none;
+}
+.Card{
+    height:345px;
+    width: 25%;
+   background-color:white;
+   float:left;
+margin-left:5.5%;
+margin-bottom:50px;
+  
+    }
+    .Card p{
+        color:grey;
+font-size:0.8rem;
+    }
+.Card img{
+    margin-top:10px;
+    height:125px;
+    width:125px;
+    margin-left:32%;
+    border-radius: 50%;
+    text-align:center;
+}
+.Name{
+    margin-top:10px;
+    font-size: 1.1rem;
+   text-align:center;
+   margin-bottom:10px;
+}
+.Card span{
+    margin-left:5%;
+    font-size:0.65rem;
+    border:1px solid grey;
+    border-radius:5px;
+    padding-right:3px;
+}
+.Title{
+    width:98.5%;
+    background-color:lightseagreen;
+    font-size:0.8rem;
+    padding-left:20px;;
+    margin-bottom:3%;
+    color:white;
+    padding-left:20px;
+padding-top:7px;
+
+height:25px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+   
+}
+.description{
+    margin-top:20px;
+    margin-left:10%;
+    margin-right:10%;
+    font-size:0.7rem;
+    height:100px;
+    text-align:center;
+    color:grey;
+    border-bottom:0.5px groove #e0eee0;
+}
+
+button{
+    background-color:white; 
+}
+a:link, a:visited {
+
+    background-color:white;
+    color: black;
+    padding: 17px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
+    font-size:0.8rem;
+  }
+  a:hover, a:active {
+    background-color:lightseagreen;
+  }
+ 
+  @media only screen and (max-width: 600px) {
+    .SearchHeading{
+        width:94.5%;
+    }
+    .Title{
+        width:94.5%;
+    }
+    .Name{
+       
+        font-size:0.75rem;
+    }
+    .Card{
+        width:40%;
+    }
+    .Card img{
+        height:50px;
+        width:50px;
+    }
+    .Card span{
+
+    margin-left:10%;
+        display:block;
+        width:70%;
+        font-size:0.6rem;
+    }
+    .description{
+        font-size:0.5rem;
+    }
+    .SearchField button{
+        width:22%;
+    }
+  } 
